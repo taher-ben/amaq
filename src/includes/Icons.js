@@ -11,7 +11,9 @@ import {
   faClock,
   faPhone,
   faBarsStaggered,
-  faBars
+  faBars,
+  faChevronRight,
+  faChevronLeft
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
   faUserSecret,
@@ -23,7 +25,9 @@ library.add(
   faClock,
   faPhone,
   faBarsStaggered,
-  faBars
+  faBars,
+  faChevronRight,
+  faChevronLeft
 )
 
 export { FontAwesomeIcon }

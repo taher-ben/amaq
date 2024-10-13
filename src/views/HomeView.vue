@@ -164,8 +164,7 @@
       </div>
     </div>
     <div
-      style="background-image: url(../assets/pattren.svg)"
-      class="container py-16 mx-auto bg-iso-bg bg-cover bg-left bg-repeat"
+      class="container bg-hero-pattern bg-conver py-16 mx-auto bg-iso-bg bg-cover bg-left bg-repeat"
     >
       <h2 class="text-3xl text-black mb-4">Accreditation and Compliance Documents</h2>
       <div class="flex max_md:flex-col items-center justify-between">

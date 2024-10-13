@@ -20,7 +20,12 @@ export default {
 
       'max-lg': { max: '1024px' } // Add max-lg breakpoint
     },
-    extend: {}
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('src/assets/pattren.svg')",
+        'pattern-head': "url('src/assets/pattrens/patren.jpg')"
+      }
+    }
   },
   plugins: []
 }

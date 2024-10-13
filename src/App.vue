@@ -83,7 +83,9 @@ const toggleMenu = () => {
       </div>
     </nav>
   </header>
-  <RouterView />
+  <div dir="ltr">
+    <RouterView />
+  </div>
   <footer class="bg-black p-8">
     <div class="container mx-auto divide-y">
       <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1 items-center">
