@@ -8,13 +8,13 @@ const toggleMenu = () => {
   isOpen.value = !isOpen.value
 }
 </script>
-
+<!-- :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'" -->
 <template>
   <header>
-    <nav class="bg-gray-200 border-gray-200 px-4 lg:px-6 py-2.5 relative">
-      <div class="flex lg:flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+    <nav class="bg-gray-200 border-gray-200 py-2.5 relative w-full">
+      <div class="flex lg:flex-wrap justify-between items-center container mx-auto">
         <RouterLink to="/" class="flex items-center">
-          <img src="./assets/logo.png" class="mr-3 w-64" alt="Flowbite Logo" />
+          <img src="./assets/logo.png" class="mr-3 w-64" />
         </RouterLink>
         <div class="lg:hidden">
           <button @click="toggleMenu" class="text-gray-600 focus:outline-none">
@@ -43,50 +43,69 @@ const toggleMenu = () => {
                 to="/"
                 class="block py-2 px-2 pr-4 pl-3 text-black rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 ms-2"
                 aria-current="page"
-                >Home</RouterLink
+                >ي</RouterLink
               >
             </li>
             <li>
               <RouterLink
-                to="/"
+                to="/service"
                 class="block py-2 pr-4 pl-3 text-black rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 ms-2"
                 aria-current="page"
-                >About</RouterLink
+                >Services</RouterLink
               >
             </li>
             <li>
               <RouterLink
-                to="/"
+                to="/QHEPPolicy"
                 class="block py-2 pr-4 pl-3 text-black rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 ms-2"
                 aria-current="page"
-                >About</RouterLink
+                >Our Policies</RouterLink
               >
             </li>
             <li>
               <RouterLink
-                to="/"
+                to="/News"
                 class="block py-2 pr-4 pl-3 text-black rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 ms-2"
                 aria-current="page"
-                >About</RouterLink
+                >News and Activities</RouterLink
               >
             </li>
             <li>
               <RouterLink
-                to="/"
+                to="/SustainableDevelopment"
                 class="block py-2 pr-4 pl-3 text-black rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 ms-2"
                 aria-current="page"
-                >About</RouterLink
+                >sustainable development</RouterLink
               >
+            </li>
+            <li>
+              <RouterLink
+                to="/ContactUS"
+                class="block py-2 pr-4 pl-3 text-black rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 ms-2"
+                aria-current="page"
+                >Contact Us</RouterLink
+              >
+            </li>
+            <li>
+              <!-- <select v-model="$i18n.locale">
+                <option
+                  v-for="locale in $i18n.availableLocales"
+                  :key="`locale-${locale}`"
+                  :value="locale"
+                >
+                  {{ locale }}
+                </option>
+              </select> -->
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <div dir="ltr">
+  <div>
     <RouterView />
   </div>
-  <footer class="bg-black p-8">
+  <footer>
     <div class="container mx-auto divide-y">
       <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1 items-center">
         <div class="lg:col-span-2">

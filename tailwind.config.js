@@ -22,7 +22,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('src/assets/pattren.svg')",
+        'hero-pattern': "url('src/assets/pattern.svg')",
         'pattern-head': "url('src/assets/pattrens/patren.jpg')"
       }
     }

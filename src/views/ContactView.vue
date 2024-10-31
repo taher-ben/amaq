@@ -1,10 +1,7 @@
 <template>
+  <IsoAmaq />
   <PageHead :title="'Contact Us'" />
   <div class="container mx-auto">
-    <div v-for="index in arr.length" :key="index">
-      {{ index }}
-      <img :src="`../../image/images/${index}.jpg`" alt="" />
-    </div>
     <div class="py-8 flex max_md:flex-col">
       <div class="md:w-6/12 max_md:mb-8 mx-2">
         <h2 class="text-2xl text-red-500 py-4 font-extrabold">Contact Us</h2>
@@ -97,7 +94,11 @@
   </div>
 </template>
 <script>
+import IsoAmaq from '@/components/IsoAmaq.vue'
 export default {
+  components: {
+    IsoAmaq
+  },
   data() {
     return {
       arr: [1, 2, 3],

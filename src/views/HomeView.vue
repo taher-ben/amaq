@@ -163,9 +163,8 @@
         </div>
       </div>
     </div>
-    <div
-      class="container bg-hero-pattern bg-conver py-16 mx-auto bg-iso-bg bg-cover bg-left bg-repeat"
-    >
+    <div></div>
+    <div class="container bg-hero-pattern bg-conver py-16 mx-auto bg-cover bg-left bg-repeat">
       <h2 class="text-3xl text-black mb-4">Accreditation and Compliance Documents</h2>
       <div class="flex max_md:flex-col items-center justify-between">
         <RouterLink to="/" class="md:w-[25rem] w-[18rem] p-4 py-4"
