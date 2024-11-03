@@ -1,0 +1,119 @@
+{
+  "home": "home",
+  "Services": "Services",
+  "ourpooicies": "Our Policies",
+  "News_and_Activities": "News and Activities",
+  "sustainable_development": "sustainable development",
+  "contact us": "contact us",
+  "video_title": "Amaq International Oil Services Company",
+  "video_dicr": "Amaq International Oil Services Company is one of the largest companies operating in its field. It was established in 2022 as a private company within the private sector, with a capital of ten million Libyan dinars.",
+  "video_disone": "We provide high-quality engineering, technical, and consulting services, committing to safety and environmental protection, developing human capabilities, and implementing innovative solutions to support Libya's economy.",
+  "video_distwo": "Our mission is summarized in the continuity of growth and expansion in the oil industry sector, achieved through adopting the latest technologies and innovations. We also commit to contributing to industry development and driving progress, while maintaining the highest safety standards to protect every component of our society.",
+  "video_distree": "We aim to achieve the deserved position as one of the major companies in the local and global arena in the competitive oil services field. We also strive to be a key player in driving development and progress in this vital sector, combining quality and innovation.",
+  "video_disfour": "Improving productivity and environmental sustainability: Providing innovative services with modern techniques, focusing on training and development of the workforce. Diversification and communication: Expanding the range of services and enhancing relationships with customers and local communities to achieve growth and enhance positive reputation.",
+  "iso_title": "Accreditation and Compliance Documents",
+  "policy": {
+    "title": "AMAQ's QHSE Policy Statement",
+    "commitmentTitle": "Our Commitment",
+    "commitmentText": "At AMAQ Aldawleya Company for oil services, we are dedicated to upholding the highest standards of quality, health, safety, and environmental protection in all our activities. We strive to provide products and services that consistently meet or exceed customer expectations while safeguarding the well-being of our employees, stakeholders, and the environment. Our QHSE policy is guided by the following principles:",
+    "principles": {
+      "quality": {
+        "title": "Quality",
+        "description": "We are committed to delivering products and services that meet the highest quality standards. We continuously improve our processes, products, and services to enhance customer satisfaction and exceed their expectations."
+      },
+      "healthSafety": {
+        "title": "Health and Safety",
+        "description": "We prioritize the health, safety, and well-being of our employees, contractors, and visitors. We maintain a safe and healthy work environment by adhering to applicable laws, regulations, and best practices. We identify and assess potential hazards, implement preventive measures, and provide comprehensive training and resources to ensure a strong safety culture."
+      },
+      "environmentalProtection": {
+        "title": "Environmental Protection",
+        "description": "We recognize the importance of environmental stewardship and strive to minimize the impact of our operations on the environment. We comply with relevant environmental laws, regulations, and standards. We continuously improve our environmental performance by conserving resources, reducing waste and emissions, and promoting sustainable practices throughout our operations."
+      },
+      "compliance": {
+        "title": "Compliance",
+        "description": "We are committed to full compliance with all applicable laws, regulations, and requirements relating to quality, health, safety, and the environment. We strive to exceed compliance standards whenever possible and aim to be a responsible corporate citizen."
+      },
+      "riskManagement": {
+        "title": "Risk Management",
+        "description": "We implement robust risk management practices to identify, assess, and mitigate risks associated with our operations. We proactively monitor and manage risks to prevent incidents, injuries, and environmental harm."
+      },
+      "employeeEngagement": {
+        "title": "Employee Engagement and Empowerment",
+        "description": "We foster a culture of accountability, participation, and continuous learning. We encourage our employees to actively contribute to QHSE initiatives, report hazards and near misses, and provide suggestions for improvement. We provide the necessary training, resources, and support to empower our employees to fulfill their QHSE responsibilities."
+      },
+      "stakeholderCollaboration": {
+        "title": "Stakeholder Collaboration",
+        "description": "We engage and collaborate with our customers, suppliers, contractors, regulatory authorities, and the community to ensure effective QHSE practices."
+      }
+    }
+  },
+  "commitment": {
+    "title": "Commitment of Amaq International Oil Services Company to Sustainable Development Goals",
+    "intro": "Amaq International Oil Services Company is strongly committed to achieving the United Nations' Sustainable Development Goals. The company aims to integrate these goals into all aspects of its operations to ensure a long-term positive impact on the environment, society, and the economy.",
+    "highlight": "Amaq International is committed to all aspects of the Sustainable Development Goals:",
+    "sections": {
+      "environmentalSustainability": {
+        "title": "Environmental Sustainability",
+        "point1": "Developing strategies and technologies that reduce carbon footprint and conserve natural resources.",
+        "point2": "Promoting the use of renewable energy and implementing sustainable operational practices."
+      },
+      "economicDevelopment": {
+        "title": "Economic Development",
+        "point1": "Achieving balanced and sustainable economic growth through innovation and investment in modern technology.",
+        "point2": "Supporting the local economy by providing job opportunities and enhancing community capabilities."
+      },
+      "socialResponsibility": {
+        "title": "Social Responsibility",
+        "point1": "Implementing social programs aimed at improving the quality of life in the communities where the company operates.",
+        "point2": "Supporting education, health, and infrastructure to enhance sustainable development in the community."
+      },
+      "integratedManagement": {
+        "title": "Integrated Management",
+        "point1": "Setting measurable goals and plans to achieve them in line with sustainable development principles.",
+        "point2": "Regularly reviewing and updating policies and procedures to ensure continuous compliance with international standards."
+      },
+      "legalCompliance": {
+        "title": "Legal Compliance",
+        "point1": "Monitoring and evaluating compliance with local and international environmental, social, and economic laws and regulations.",
+        "point2": "Updating policies and procedures to ensure ongoing compliance and adaptation to legal changes."
+      },
+      "communicationParticipation": {
+        "title": "Communication and Participation",
+        "point1": "Enhancing communication with stakeholders and providing transparent reports on the company's environmental, social, and economic performance.",
+        "point2": "Encouraging employee participation and community involvement in achieving sustainable development goals."
+      }
+    },
+    "conclusion": "By implementing the Sustainable Development Goals, Amaq International Oil Services Company ensures a positive impact that enhances its reputation as a responsible organization. This commitment supports ongoing efforts to balance economic performance with environmental protection and social responsibility, contributing to a sustainable future for all."
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "intro": "At Aamaq International Oil Services Company, we are always striving to provide the best services to our clients and partners. We are happy to hear from you for any inquiries or requests.",
+    "address": {
+      "title": "Address",
+      "location": "Al-Andalus District, Tripoli, Libya"
+    },
+    "phone": {
+      "title": "Phone",
+      "number1": "218-92-2129320",
+      "number2": "218-91-2129320",
+      "number3": "218-21-7103172",
+      "number4": "218-21-7103170"
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "hours": "We are available to serve you from Saturday to Thursday, from 8:00 AM to 4:00 PM."
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@amaq.ly"
+    },
+    "form": {
+      "intro": "Please fill out the form below and we will get in touch with you as soon as possible:",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit"
+    }
+  }
+}

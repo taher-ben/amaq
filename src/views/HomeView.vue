@@ -19,7 +19,7 @@
             <h1
               class="text-white text-4xl lg:w-80 md:w-3/4 px-2 py-2 border-t-4 ltr:border-l-4 rtl:border-r-4 border-red-500"
             >
-              Amaq International Oil Services Company
+              <!-- {{ $t('video_title') }} -->
             </h1>
             <p class="text-white lg:w-2/6 md:w-3/4 my-8">
               Amaq International Oil Services Company is one of the largest companies operating in

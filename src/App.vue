@@ -105,7 +105,7 @@ const toggleMenu = () => {
   <div>
     <RouterView />
   </div>
-  <footer>
+  <footer class="bg-black pt-6 pb-4">
     <div class="container mx-auto divide-y">
       <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1 items-center">
         <div class="lg:col-span-2">
@@ -154,9 +154,7 @@ const toggleMenu = () => {
             </li>
           </ul>
         </div>
-        <ul
-          class="text-gray-300 dark:text-gray-400 font-medium flex items-center md:flex-row flex-col"
-        >
+        <ul class="text-gray-300 font-medium flex items-center md:flex-row flex-col">
           <font-awesome-icon
             class="svg-inline--fa fa-location-dot px-2 text-2xl text-red-500"
             :icon="['fas', 'phone']"

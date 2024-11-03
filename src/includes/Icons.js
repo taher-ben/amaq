@@ -13,7 +13,8 @@ import {
   faBarsStaggered,
   faBars,
   faChevronRight,
-  faChevronLeft
+  faChevronLeft,
+  faAnglesDown
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
   faUserSecret,
@@ -27,7 +28,8 @@ library.add(
   faBarsStaggered,
   faBars,
   faChevronRight,
-  faChevronLeft
+  faChevronLeft,
+  faAnglesDown
 )
 
 export { FontAwesomeIcon }

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ServiceDetails from '../components/ServiceCompany.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,6 +9,12 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/service/:id', // المسار الديناميكي لتحديد الخدمة حسب ID
+      name: 'ServiceDetails',
+      component: ServiceDetails,
+      props: true // تفعيل props لتمرير ID كـ prop إلى المكوّن
     },
     {
       path: '/service',
