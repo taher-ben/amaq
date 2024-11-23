@@ -8,10 +8,12 @@ const toggleMenu = () => {
   isOpen.value = !isOpen.value
 }
 </script>
-<!-- :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'" -->
 <template>
   <header>
-    <nav class="bg-gray-200 border-gray-200 py-2.5 relative w-full">
+    <nav
+      class="bg-gray-200 border-gray-200 py-2.5 relative w-full"
+      :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'"
+    >
       <div class="flex lg:flex-wrap justify-between items-center container mx-auto">
         <RouterLink to="/" class="flex items-center">
           <img src="./assets/logo.png" class="mr-3 w-64" />
@@ -87,7 +89,7 @@ const toggleMenu = () => {
               >
             </li>
             <li>
-              <!-- <select v-model="$i18n.locale">
+              <select v-model="$i18n.locale">
                 <option
                   v-for="locale in $i18n.availableLocales"
                   :key="`locale-${locale}`"
@@ -95,17 +97,17 @@ const toggleMenu = () => {
                 >
                   {{ locale }}
                 </option>
-              </select> -->
+              </select>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <div>
+  <div :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'">
     <RouterView />
   </div>
-  <footer class="bg-black pt-6 pb-4">
+  <footer class="bg-black pt-6 pb-4" :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'">
     <div class="container mx-auto divide-y">
       <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1 items-center">
         <div class="lg:col-span-2">
@@ -169,7 +171,7 @@ const toggleMenu = () => {
       </div>
       <div class="pt-3 text-center hover:underline">
         <RouterLink class="text-gray-300" to="/"
-          >© 2024 Amaq International Oil Services Company</RouterLink
+          >© 2024 Amaq Al-Dauleya Oil Services Company</RouterLink
         >
       </div>
     </div>

@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@/includes/Icons'
 import validate from '@/includes/ValidationForm'
 
 import PageHead from './components/PageHead.vue'
+import MainButton from './components/MainButton.vue'
 
 const app = createApp(App)
 
@@ -21,6 +22,7 @@ app.config.globalProperties.$axios = axios
 app.use(validate)
 
 app.component('PageHead', PageHead)
+app.component('MainButton', MainButton)
 
 app.component('font-awesome-icon', FontAwesomeIcon)
 

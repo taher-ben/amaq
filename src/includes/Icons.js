@@ -14,6 +14,8 @@ import {
   faBars,
   faChevronRight,
   faChevronLeft,
+  faAngleLeft,
+  faAngleRight,
   faAnglesDown
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
@@ -29,6 +31,8 @@ library.add(
   faBars,
   faChevronRight,
   faChevronLeft,
+  faAngleLeft,
+  faAngleRight,
   faAnglesDown
 )
 

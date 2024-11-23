@@ -6,7 +6,7 @@
       <div class="md:w-6/12 max_md:mb-8 mx-2">
         <h2 class="text-2xl text-red-500 py-4 font-extrabold">Contact Us</h2>
         <p class="lg:w-[36rem]">
-          At Aamaq International Oil Services Company, we are always striving to provide the best
+          At Amaq Al-Dauleya Oil Services Company, we are always striving to provide the best
           services to our clients and partners. We are happy to hear from you for any inquiries or
           requests.
         </p>

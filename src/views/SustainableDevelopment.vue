@@ -10,16 +10,16 @@
         <h3
           class="text-2xl md:w-3/5 leading-[3rem] font-extrabold pb-8 underline-offset-[12px] underline decoration-2 decoration-dashed"
         >
-          Commitment of Amaq International Oil Services Company to Sustainable Development Goals
+          Commitment of Amaq Al-Dauleya Oil Services Company to Sustainable Development Goals
         </h3>
         <p class="text-xl">
-          Amaq International Oil Services Company is strongly committed to achieving the United
+          Amaq Al-Dauleya Oil Services Company is strongly committed to achieving the United
           Nations' Sustainable Development Goals. The company aims to integrate these goals into all
           aspects of its operations to ensure a long-term positive impact on the environment,
           society, and the economy.
         </p>
         <p class="py-4 text-red-500 font-bold">
-          Amaq International is committed to all aspects of the Sustainable Development Goals:
+          Amaq Al-Dauleya is committed to all aspects of the Sustainable Development Goals:
         </p>
         <ul class="list-disc list-inside">
           <h4 class="font-semibold text-lg">Environmental Sustainability</h4>
@@ -89,7 +89,7 @@
           </li>
         </ul>
         <p class="pt-5">
-          By implementing the Sustainable Development Goals, Amaq International Oil Services Company
+          By implementing the Sustainable Development Goals, Amaq Al-Dauleya Oil Services Company
           ensures a positive impact that enhances its reputation as a responsible organization. This
           commitment supports ongoing efforts to balance economic performance with environmental
           protection and social responsibility, contributing to a sustainable future for all.

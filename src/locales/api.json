@@ -233,7 +233,7 @@
     },
     {
       "name": "Final Disposal",
-      "description": "Amaq International owns a sanitary landfill, the first of its kind in Libya. The opening ceremony was attended by the Deputy Prime Minister, Acting Minister of Health, Minister of Environment, Director General of the General Administration of Environmental Sanitation at the Ministry of Local Government, and representatives from the Ministry of Higher and Technical Education, along with several public figures, municipal mayors, and directors of environmental sanitation offices in various municipalities.",
+      "description": "Amaq Al-Dauleya owns a sanitary landfill, the first of its kind in Libya. The opening ceremony was attended by the Deputy Prime Minister, Acting Minister of Health, Minister of Environment, Director General of the General Administration of Environmental Sanitation at the Ministry of Local Government, and representatives from the Ministry of Higher and Technical Education, along with several public figures, municipal mayors, and directors of environmental sanitation offices in various municipalities.",
       "pageLink": "/final-disposal",
       "steps": [
         {
@@ -352,7 +352,7 @@
     },
     {
       "name": "Environmental Operations Monitoring",
-      "description": "Amaq International, through specialized companies under long-term agreements, is engaged in continuous monitoring of emissions and full tracking of environmental pollutants at company sites using advanced SMART technologies. The company also has fixed and mobile laboratories to ensure the quality of environmental work and ensure environmental protection.",
+      "description": "Amaq Al-Dauleya, through specialized companies under long-term agreements, is engaged in continuous monitoring of emissions and full tracking of environmental pollutants at company sites using advanced SMART technologies. The company also has fixed and mobile laboratories to ensure the quality of environmental work and ensure environmental protection.",
       "pageLink": "/environmental-operations-monitoring",
       "steps": [
         {
@@ -410,6 +410,107 @@
             "Training employees: On the importance of environmental monitoring and how to properly execute it.",
             "Environmental awareness: Raising awareness among the local community and other companies about the importance of environmental monitoring."
           ]
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Amaq Al-Dauleya Showcases Advanced Environmental Technologies at Libya Energy and Economy Summit",
+      "id": "news",
+      "content": [
+        {
+          "details": "Amaq Al-Dauleya Oil Services Company is honored to participate in the Libya Energy and Economy Summit, where the company presented a comprehensive showcase highlighting its latest advanced technologies, committed to balancing advanced technology with environmental preservation. The company excelled in showcasing innovative aspects of its services, particularly in the collection, cleaning, and treatment of oil losses that arise from exploration, drilling, and maintenance operations. Amaq also reaffirmed its strong commitment to sustainability by adopting environmentally friendly technologies that adhere to the highest international and local standards. Amaq Al-Dauleya's participation in this summit serves as an important opportunity to share its experiences and exchange knowledge with the Libyan oil sector while emphasizing its readiness for effective collaboration in enhancing the sector's infrastructure and driving economic growth in Libya."
+        }
+      ]
+    },
+    {
+      "title": "Company Establishes Libya's First Secure Disposal Cell (Sanitary Landfill)",
+      "id": "news",
+      "content": [
+        {
+          "details": "Amaq Al-Dauleya Oil Services Company takes pride in providing effective and integrated environmental solutions. The company is earnestly working towards playing a key role in development and enhancing the quality of life in Libya. To achieve this goal, the first site for secure disposal of hazardous waste in the country was established. The project aims to organize hazardous waste management processes and unify appropriate policies and methods for sustainable and proper disposal. We are committed to adhering to best practices and leveraging the latest technologies to protect the environment and reduce harmful impacts on the community. The secure hazardous waste disposal site forms a core part of our strategy to mitigate and minimize potential environmental and public health risks. We are committed to delivering our services professionally and systematically, making every effort to achieve our goals in environmental and human health protection. We are confident that our efforts will significantly contribute to building a better future for future generations."
+        }
+      ]
+    },
+    {
+      "title": "Strengthening Cooperation Between Amaq Al-Dauleya Oil Services and the General Electricity Company",
+      "id": "news",
+      "content": [
+        {
+          "details": "Amaq Al-Dauleya Oil Services Company announced a visit by a delegation from the General Electricity Company to all its sites to strengthen cooperation and exchange expertise in the oil services field. This visit is part of a joint effort to develop current projects and explore new opportunities that benefit both companies. Both parties expressed satisfaction with the visit's outcomes and stressed the importance of maintaining communication and cooperation to achieve their shared goals."
+        }
+      ]
+    },
+    {
+      "title": "Halliburton Delegation Visits to Strengthen Collaboration with Amaq Al-Dauleya Oil Services",
+      "id": "news",
+      "content": [
+        {
+          "details": "Amaq Al-Dauleya Oil Services Company announced the reception of a delegation from Halliburton, who visited all of Amaq's sites. The purpose of this visit was to strengthen ties and exchange expertise between the two companies in the oil services field. Both parties discussed ways to develop existing projects and explore new opportunities that could benefit both companies. Representatives of the two companies expressed satisfaction with the visit's outcomes and emphasized the importance of maintaining dialogue and collaboration to achieve their shared objectives."
+        }
+      ]
+    },
+    {
+      "title": "Ministry of Environment Praises the Sustainable Environmental Technologies of Amaq Al-Dauleya Oil Services",
+      "id": "news",
+      "content": [
+        {
+          "details": "The Ministry of Environment conducted an inspection visit to the sites of Amaq Al-Dauleya Oil Services Company. The visit included reviewing the advanced technologies used by the company in its operations. The Ministry's delegation expressed admiration for the sustainable environmental practices and technologies employed by Amaq. This visit is part of efforts to enhance collaboration between the oil sector and government entities to ensure adherence to environmental standards and achieve sustainable development. Both parties emphasized the importance of continuing such collaboration to achieve shared goals in environmental protection and sustainability."
+        }
+      ]
+    },
+    {
+      "title": "Emissions Monitoring in Collaboration with the Ministry of Environment and the Environmental Police",
+      "id": "news",
+      "content": [
+        {
+          "details": "Green Life Company, in cooperation with the Ministry of Environment and the Environmental Police, implemented a project to monitor emissions resulting from the recent volcanic eruption in Sicily, Italy. The project includes deploying advanced air quality monitoring systems at strategic locations in Tripoli to ensure precise and effective monitoring of potential emissions. Field teams have been equipped with the latest technologies and advanced devices, including portable air monitors and drones, to ensure comprehensive coverage and accurate analysis of environmental data. This effort aims to protect the environment and public health from the potential harmful effects of the volcanic eruption. Green Life Company reaffirms its commitment to environmental preservation and providing advanced environmental solutions in collaboration with government entities to ensure a healthy and clean environment for all."
+        }
+      ]
+    },
+    {
+      "title": "Amaq Al-Dauleya Successfully Completes Oil Waste Treatment at Janzour Station According to Environmental Standards",
+      "id": "news",
+      "content": [
+        {
+          "details": "Amaq Al-Dauleya Oil Services Company successfully completed the oil waste treatment works for the General Electricity Company at Janzour Station. The tasks included implementing all necessary measures to ensure the safe and environmentally sound disposal of accumulated oil waste, in compliance with international and local environmental standards. This step is part of Amaq Al-Dauleya's commitment to providing the best integrated solutions and services to its clients in the oil and energy sector, while also striving to enhance strategic partnerships with various entities to ensure operational sustainability and achieve the desired environmental and economic benefits."
+        }
+      ]
+    },
+    {
+      "title": "Strategic Partnership between Amaq Al-Dauleya and Mellitah Oil & Gas for Environmental Sustainability",
+      "id": "news",
+      "content": [
+        {
+          "details": "Amaq Al-Dauleya for Oil Waste has provided its distinguished services to Mellitah Oil & Gas. These services include the treatment and management of oil waste using the latest advanced technologies, ensuring environmental preservation and compliance with global standards. This partnership aims to enhance the efforts of both companies in achieving environmental sustainability and improving operational processes in the oil and gas sector. Amaq Al-Dauleya is proud to offer innovative and integrated solutions that meet the needs of its partners and contribute to achieving their environmental and economic goals."
+        }
+      ]
+    },
+    {
+      "title": "Amaq Al-Dauleya Company Begins Providing Handling and Industrial Cleaning Services at Mellitah Complex",
+      "id": "news",
+      "content": [
+        {
+          "details": " Amaq Al-Dauleya Company has commenced handling and industrial cleaning operations at the Mellitah Complex in the city of Sabratha, affiliated with Mellitah Oil & Gas Company. The services provided by the company include comprehensive cleaning operations, as well as handling and transporting hazardous oil waste from Mellitah Company sites toAmaq Al-Dauleya’s specialized treatment facility. This facility features state-of-the-art technologies to ensure environmental safety and sustainable waste management. This collaboration aligns withAmaq Al-Dauleya’s efforts to strengthen its role as a strategic partner in the oil and gas sector, adhering to health, safety, and environmental standards, while focusing on delivering integrated services that contribute to environmental protection and sustainable development.Amaq Al-Dauleya continues to offer innovative solutions in oil waste management and industrial operations, solidifying its position as a leading company in this field."
+        }
+      ]
+    },
+    {
+      "title": "Amaq Al-Dauleya Company Begins Industrial Cleaning and Oil Residue Treatment Operations at Khoms Steam Power Plant",
+      "id": "news",
+      "content": [
+        {
+          "details": "Amaq Al-Dauleya Company has commenced the implementation of industrial cleaning and oil residue treatment operations at the Khoms Steam Power Plant, affiliated with the General Electricity Company, in the city of Khoms. The operations carried out by the company include managing soil contaminated due to oil spills resulting from operational activities. Amaq Al-Dauleya is committed to applying the highest environmental standards to ensure the treatment of oil waste and contaminated soil using sustainable and safe methods. This contributes to minimizing environmental impact and improving the quality of affected sites. This work is part of Amaq Al-Dauleya’s commitment to supporting national companies in addressing environmental challenges and promoting sustainable development by offering innovative and efficient solutions in the field of industrial cleaning and waste management. Amaq Al-Dauleya Company continues to enhance its role as a strategic partner in oil waste management and industrial cleaning, serving as an environmental partner to the General Electricity Company."
+        }
+      ]
+    },
+    {
+      "title": "Amaq International Company Commences Industrial Cleaning and Oil Residue Treatment Operations at North Benghazi Power Plant",
+      "id": "news",
+      "content": [
+        {
+          "details": "Amaq Al-Dauleya Company has initiated industrial cleaning and oil residue treatment operations at the North Benghazi Power Plant, affiliated with the General Electricity Company. The operations include addressing soil contamination caused by oil spills resulting from operational activities. The company employs the latest environmental technologies to ensure safe and sustainable cleaning of affected sites and the treatment of residues and contaminated soil, thereby minimizing environmental impact and enhancing the safety of the surrounding environment. This project reflects Amaq Al-Dauleya’s commitment to supporting national companies in improving the quality of affected sites and efficiently managing oil waste. These efforts contribute to achieving environmental sustainability and advancing national development. Amaq Al-Dauleya continues to provide pioneering and advanced solutions in industrial cleaning and waste management, solidifying its position as a strategic partner to the General Electricity Company."
         }
       ]
     }

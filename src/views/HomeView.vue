@@ -22,9 +22,9 @@
               <!-- {{ $t('video_title') }} -->
             </h1>
             <p class="text-white lg:w-2/6 md:w-3/4 my-8">
-              Amaq International Oil Services Company is one of the largest companies operating in
-              its field. It was established in 2022 as a private company within the private sector,
-              with a capital of ten million Libyan dinars.
+              Amaq Al-Dauleya Oil Services Company is one of the largest companies operating in its
+              field. It was established in 2022 as a private company within the private sector, with
+              a capital of ten million Libyan dinars.
             </p>
             <RouterLink
               to="#/about"
@@ -151,8 +151,8 @@
           <div class="pt-4">
             <h3 class="text-red-500 font-bold">News</h3>
             <p class="text-white mb-10">
-              Strategic Partnership between Aamaq International and Mellitah Oil & Gas for
-              Environmental Sustainability
+              Strategic Partnership between Amaq Al-Dauleya and Mellitah Oil & Gas for Environmental
+              Sustainability
             </p>
             <RouterLink
               to="#/NewsAndTopic/8"
