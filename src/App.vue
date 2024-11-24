@@ -95,15 +95,23 @@ const toggleMenu = () => {
               </RouterLink>
             </li>
             <li>
-              <select v-model="$i18n.locale">
-                <option
-                  v-for="locale in $i18n.availableLocales"
-                  :key="`locale-${locale}`"
-                  :value="locale"
-                >
-                  {{ locale }}
-                </option>
-              </select>
+              <RouterLink
+                to="/"
+                @click="toggleLanguage"
+                class="block py-2 pr-4 pl-3 text-black rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 ms-2"
+                aria-current="page"
+              >
+                <!-- <select v-model="$i18n.locale">
+                  <option
+                    v-for="locale in $i18n.availableLocales"
+                    :key="`locale-${locale}`"
+                    :value="locale"
+                  >
+                    {{ locale }}
+                  </option>
+                </select> -->
+                <font-awesome-icon :icon="['fas', 'globe']" />
+              </RouterLink>
             </li>
           </ul>
         </div>
@@ -190,3 +198,18 @@ const toggleMenu = () => {
     </div>
   </footer>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      currentLanguage: this.$i18n.locale
+    }
+  },
+  methods: {
+    toggleLanguage() {
+      this.currentLanguage = this.currentLanguage === 'en' ? 'ar' : 'en'
+      this.$i18n.locale = this.currentLanguage
+    }
+  }
+}
+</script>

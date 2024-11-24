@@ -16,7 +16,8 @@ import {
   faChevronLeft,
   faAngleLeft,
   faAngleRight,
-  faAnglesDown
+  faAnglesDown,
+  faGlobe
 } from '@fortawesome/free-solid-svg-icons'
 library.add(
   faUserSecret,
@@ -33,7 +34,8 @@ library.add(
   faChevronLeft,
   faAngleLeft,
   faAngleRight,
-  faAnglesDown
+  faAnglesDown,
+  faGlobe
 )
 
 export { FontAwesomeIcon }
