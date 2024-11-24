@@ -3,16 +3,16 @@ import en from './locales/en.json'
 import ar from './locales/ar.json'
 
 function loadLocaleMessages() {
-  const locales = [{ en: en }, { ar: ar }]
+  const locales = { en, ar }
   const messages = {}
-  locales.forEach((lang) => {
-    const key = Object.keys(lang)
-    messages[key] = lang[key]
-  })
+  for (const [key, value] of Object.entries(locales)) {
+    messages[key] = value
+  }
   return messages
 }
 
 export default createI18n({
+  legacy: false,
   locale: 'en',
   fallbackLocale: 'en',
   messages: loadLocaleMessages()

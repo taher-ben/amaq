@@ -19,12 +19,10 @@
             <h1
               class="text-white text-4xl lg:w-80 md:w-3/4 px-2 py-2 border-t-4 ltr:border-l-4 rtl:border-r-4 border-red-500"
             >
-              <!-- {{ $t('video_title') }} -->
+              {{ $t('video_title') }}
             </h1>
             <p class="text-white lg:w-2/6 md:w-3/4 my-8">
-              Amaq Al-Dauleya Oil Services Company is one of the largest companies operating in its
-              field. It was established in 2022 as a private company within the private sector, with
-              a capital of ten million Libyan dinars.
+              {{ $t('video_dicr') }}
             </p>
             <RouterLink
               to="#/about"
@@ -39,9 +37,7 @@
                 :icon="['fab', 'envira']"
               />
               <p class="text-white">
-                We provide high-quality engineering, technical, and consulting services, committing
-                to safety and environmental protection, developing human capabilities, and
-                implementing innovative solutions to support Libya's economy.
+                {{ $t('video_disone') }}
               </p>
             </div>
             <div class="my-6 flex md:flex-row flex-col items-center">
@@ -50,10 +46,7 @@
                 :icon="['fas', 'envelope']"
               />
               <p class="text-white">
-                Our mission is summarized in the continuity of growth and expansion in the oil
-                industry sector, achieved through adopting the latest technologies and innovations.
-                We also commit to contributing to industry development and driving progress, while
-                maintaining the highest safety standards to protect every component of our society.
+                {{ $t('video_distwo') }}
               </p>
             </div>
             <div class="my-6 flex md:flex-row flex-col items-center">
@@ -62,10 +55,7 @@
                 :icon="['fas', 'eye']"
               />
               <p class="text-white">
-                We aim to achieve the deserved position as one of the major companies in the local
-                and global arena in the competitive oil services field. We also strive to be a key
-                player in driving development and progress in this vital sector, combining quality
-                and innovation.
+                {{ $t('video_distree') }}
               </p>
             </div>
             <div class="my-6 flex md:flex-row flex-col items-center">
@@ -74,11 +64,7 @@
                 :icon="['fas', 'bullseye']"
               />
               <p class="text-white">
-                Improving productivity and environmental sustainability: Providing innovative
-                services with modern techniques, focusing on training and development of the
-                workforce. Diversification and communication: Expanding the range of services and
-                enhancing relationships with customers and local communities to achieve growth and
-                enhance positive reputation.
+                {{ $t('video_disfour') }}
               </p>
             </div>
           </div>

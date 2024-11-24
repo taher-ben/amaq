@@ -43,9 +43,7 @@ export default {
   methods: {
     async fetchData() {
       try {
-        const response = await axios.get(
-          'https://amaq-66c14-default-rtdb.firebaseio.com/news/.json'
-        )
+        const response = await axios.get('https://amaq-66c14-default-rtdb.firebaseio.com/en/.json')
         this.data = response.data
       } catch (error) {
         console.error(error)

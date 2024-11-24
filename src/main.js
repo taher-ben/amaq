@@ -5,7 +5,7 @@ import App from './App.vue'
 import router from './router'
 import axios from 'axios'
 
-// import i18n from './i18n'
+import i18n from './i18n'
 
 import { FontAwesomeIcon } from '@/includes/Icons'
 import validate from '@/includes/ValidationForm'
@@ -17,7 +17,7 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-// app.use(i18n)
+app.use(i18n)
 app.config.globalProperties.$axios = axios
 app.use(validate)
 

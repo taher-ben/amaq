@@ -1,5 +1,5 @@
 {
-  "home": "home",
+  "home": "Home",
   "Services": "Services",
   "ourpooicies": "Our Policies",
   "News_and_Activities": "News and Activities",
@@ -12,6 +12,27 @@
   "video_distree": "We aim to achieve the deserved position as one of the major companies in the local and global arena in the competitive oil services field. We also strive to be a key player in driving development and progress in this vital sector, combining quality and innovation.",
   "video_disfour": "Improving productivity and environmental sustainability: Providing innovative services with modern techniques, focusing on training and development of the workforce. Diversification and communication: Expanding the range of services and enhancing relationships with customers and local communities to achieve growth and enhance positive reputation.",
   "iso_title": "Accreditation and Compliance Documents",
+  "footer": {
+    "importantLinks": "Important Links",
+    "home": "Home",
+    "newsAndActivities": "News and Activities",
+    "address": {
+      "title": "Address",
+      "location": "Andalusia District, Tripoli, Libya"
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "details": "We are available to serve you from Saturday to Thursday, from 8:00 AM to 4:00 PM."
+    },
+    "contactNumbers": {
+      "title": "Contact Numbers",
+      "number1": "218-92-2129320",
+      "number2": "218-91-2129320",
+      "number3": "218-21-7103172",
+      "number4": "218-21-7103170"
+    },
+    "copyright": "© 2024 Amaq Al-Dauleya Oil Services Company"
+  },
   "policy": {
     "title": "AMAQ's QHSE Policy Statement",
     "commitmentTitle": "Our Commitment",
