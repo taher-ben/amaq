@@ -128,7 +128,6 @@ const toggleMenu = () => {
         <div class="lg:col-span-2">
           <img class="w-128" src="../image/whitelogo.png" alt="Logo" />
         </div>
-
         <!-- Important Links Section -->
         <div class="max_md:flex max_md:flex-col max_md:items-center max_md:py-2 mx-auto">
           <ul>
@@ -149,7 +148,6 @@ const toggleMenu = () => {
             </li>
           </ul>
         </div>
-
         <!-- Address and Working Hours Section -->
         <div>
           <ul>
@@ -192,7 +190,7 @@ const toggleMenu = () => {
       <!-- Copyright Section -->
       <div class="pt-3 text-center hover:underline">
         <RouterLink class="text-gray-300" to="/">
-          {{ $t('footer.copyright') }}
+          <span> &copy; </span>{{ date }}{{ $t('footer.copyright') }}
         </RouterLink>
       </div>
     </div>
@@ -202,7 +200,8 @@ const toggleMenu = () => {
 export default {
   data() {
     return {
-      currentLanguage: this.$i18n.locale
+      currentLanguage: this.$i18n.locale,
+      date: new Date().getFullYear()
     }
   },
   methods: {

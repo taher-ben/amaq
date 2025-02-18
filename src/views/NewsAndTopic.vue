@@ -5,7 +5,7 @@
       <div class="container mx-auto">
         <div class="grid gap-4 max-md:relative w-full max-md:min-w-96 py-16 px-3">
           <div
-            v-for="(item, index) in [...data].reverse()"
+            v-for="(item, index) in data"
             :key="index"
             class="md:flex md:flex-row justify-center md:bg-transparent bg-white max-md:top-0 max-md:left-0 max-md:w-96 max-sm:w-80"
           >
@@ -30,7 +30,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import axios from 'axios'
 export default {
@@ -42,14 +41,18 @@ export default {
 
   methods: {
     async fetchData() {
+      const locale = this.$i18n.locale
+      const mianUrl = 'https://amaq-66c14-default-rtdb.firebaseio.com/'
+      const url = locale === 'ar' ? 'ar/news.json' : 'en/news.json'
       try {
-        const response = await axios.get('https://amaq-66c14-default-rtdb.firebaseio.com/en/.json')
+        const response = await axios.get(`${mianUrl}${url}`)
         this.data = response.data
       } catch (error) {
         console.error(error)
       }
     }
   },
+
   mounted() {
     this.fetchData()
   }

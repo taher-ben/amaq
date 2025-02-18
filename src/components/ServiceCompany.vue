@@ -1,4 +1,3 @@
-<!-- ServiceDetails.vue -->
 <template>
   <div class="">
     <div
@@ -35,9 +34,10 @@ export default {
   async created() {
     try {
       const response = await axios.get(
-        `https://amaq-66c14-default-rtdb.firebaseio.com/services/${this.id}.json`
+        `https://amaq-66c14-default-rtdb.firebaseio.com/en/services/${this.id}/.json`
       )
       this.service = response.data
+      console.log(this.service)
     } catch (error) {
       console.error('خطأ أثناء جلب بيانات الخدمة:', error)
     }

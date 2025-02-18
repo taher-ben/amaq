@@ -76,28 +76,27 @@
         <div
           class="grid md:grid-cols-3 md:grid-rows-1 grid-cols-1 grid-rows-3 md:divide-x md:divide-y-0 divide-y gap-4"
         >
-          <div class="px-2 py-6">
+          <div v-for="(news, index) in data.slice(0, 3)" :key="index" class="px-2 py-6">
+            <RouterLink :to="{ name: 'NewsCompo', params: { id: `${data.length - 1 - index}` } }">
+              <h5 class="text-red-600">Read More</h5>
+              <p class="text-sm text-gray-700">March,22,2024</p>
+              <p>{{ news.title }}</p>
+            </RouterLink>
+          </div>
+          <!-- <div class="px-2 py-6">
             <RouterLink to="/">
               <h5 class="text-red-600">Read More</h5>
               <p class="text-sm text-gray-700">March,22,2024</p>
               <p>Establishment of the First Secure Landfill Cell in Libya</p>
             </RouterLink>
           </div>
-          <div class="px-2 py-6">
-            <RouterLink to="/">
-              <h5 class="text-red-600">Read More</h5>
-              <p class="text-sm text-gray-700">March,22,2024</p>
-              <p>Establishment of the First Secure Landfill Cell in Libya</p>
-            </RouterLink>
-          </div>
-
           <RouterLink to="/">
             <div class="px-2 py-6">
               <h5 class="text-red-600">Read More</h5>
               <p class="text-sm text-gray-700">March,22,2024</p>
               <p>Establishment of the First Secure Landfill Cell in Libya</p>
             </div>
-          </RouterLink>
+          </RouterLink> -->
         </div>
       </div>
     </div>
@@ -113,24 +112,27 @@
       <div
         class="container pb-6 grid mx-auto justify-items-center md:grid-cols-2 md:grid-rows-1 grid-rows-2 grid-cols-1"
       >
-        <div class="w-5/6 py-8">
+        <div v-for="(item, index) in data.slice(-2)" :key="index" class="w-5/6 py-8">
           <div>
-            <img loading="lazy" src="../../image/images/1.jpg" alt="Emission Monitoring" />
+            <img
+              loading="lazy"
+              :src="`../../image/news/${data.length - 1 - index}/0.jpg`"
+              alt="Emission Monitoring"
+            />
           </div>
           <div class="pt-4">
-            <h3 class="text-red-500 font-bold">News</h3>
+            <h3 class="text-red-500 font-bold">{{ item.id }}</h3>
             <p class="text-white mb-10">
-              Emission Monitoring in Collaboration with the Ministry of Environment and the
-              Environmental Police
+              {{ item.title }}
             </p>
             <RouterLink
-              to="#/NewsAndTopic/6"
+              :to="{ name: 'NewsCompo', params: { id: `${data.length - 1 - index}` } }"
               class="mt-2 bg-white px-16 md:px-8 py-2 text-red-600 hover:text-white hover:bg-red-600"
               >Read More</RouterLink
             >
           </div>
         </div>
-        <div class="w-5/6 py-8">
+        <!-- <div class="w-5/6 py-8">
           <div>
             <img loading="lazy" src="../../image/images/2.jpg" alt="Strategic Partnership" />
           </div>
@@ -141,12 +143,12 @@
               Sustainability
             </p>
             <RouterLink
-              to="#/NewsAndTopic/8"
+              to="/NewsCompo/8"
               class="bg-white px-16 md:px-8 py-2 text-red-600 hover:text-white hover:bg-red-600 mt-16"
               >Read More</RouterLink
             >
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div></div>
@@ -166,3 +168,31 @@
     </div>
   </div>
 </template>
+<script>
+import axios from 'axios'
+export default {
+  data() {
+    return {
+      data: []
+    }
+  },
+  methods: {
+    async fetchData() {
+      const locale = this.$i18n.locale
+      const mianUrl = 'https://amaq-66c14-default-rtdb.firebaseio.com/'
+      const url = locale === 'ar' ? 'ar/news.json' : 'en/news.json'
+      try {
+        const response = await axios.get(`${mianUrl}${url}`)
+        this.data = response.data
+        console.log(this.data)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+  },
+
+  mounted() {
+    this.fetchData()
+  }
+}
+</script>

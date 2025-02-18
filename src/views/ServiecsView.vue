@@ -12,7 +12,7 @@
           <RouterLink
             v-for="(item, index) in data"
             :key="index"
-            :to="{ name: 'ServiceDetails', params: { id: index } }"
+            :to="{ name: 'ServiceDetails', params: { id: `${data.length - 1 - index}` } }"
             class="md:max-w-sm snap-center max-w-[300px] mx-2 bg-white border border-gray-200 rounded-lg shadow"
           >
             <img class="rounded-t-lg" :src="`/image/services/${index}.jpg`" alt="Service Image" />
@@ -55,21 +55,20 @@ export default {
   props: ['title'],
   data() {
     return {
-      data: null,
-      locale: this.$i18n.locale
+      data: null
+      // locale: this.$i18n.locale
     }
   },
   methods: {
     async fetchData() {
-      const locale = this.locale
-      const baseURL = 'https://amaq-66c14-default-rtdb.firebaseio.com/'
-      const url = `${baseURL}${locale}/services/.json`
-
+      const locale = this.$i18n.locale
+      const mianUrl = 'https://amaq-66c14-default-rtdb.firebaseio.com/'
+      const url = locale === 'ar' ? 'ar/services.json' : 'en/services.json'
       try {
-        const response = await axios.get(url)
+        const response = await axios.get(`${mianUrl}${url}`)
         this.data = response.data
       } catch (error) {
-        console.error('Error fetching data:', error)
+        console.error(error)
       }
     },
     scrollTo(slider, distance, duration) {

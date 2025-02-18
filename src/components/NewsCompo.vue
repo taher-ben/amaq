@@ -72,16 +72,17 @@ export default {
     async fetchData() {
       try {
         const response = await axios.get(
-          'https://amaq-66c14-default-rtdb.firebaseio.com/news/.json'
+          'https://amaq-66c14-default-rtdb.firebaseio.com/en/news/.json'
         )
-        this.data = response.data // Store fetched data
+        this.data = response.data
+        console.log(this.data)
       } catch (error) {
         console.error('Error fetching data:', error)
       }
     }
   },
   mounted() {
-    this.fetchData() // Fetch data when the component is mounted
+    this.fetchData()
   }
 }
 </script>
