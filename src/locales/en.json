@@ -1,4 +1,6 @@
 {
+  "Our_Services": "Our Services",
+  "readmore": "Read More",
   "home": "Home",
   "Services": "Services",
   "ourpooicies": "Our Policies",
@@ -135,6 +137,122 @@
       "email": "Email",
       "message": "Message",
       "submit": "Submit"
+    }
+  },
+  "iso": {
+    "45001": {
+      "title": "Overview of AMAQ International Oil Services Company's ISO 45001 System",
+      "commitment": "AMAQ International is committed to all the following ISO 45001 requirements:",
+      "overview": "The ISO 45001 Occupational Health and Safety Management System is an international standard that specifies the requirements for establishing, implementing, and improving an occupational health and safety management system within organizations. AMAQ International Oil Services Company aims to apply this system to ensure a safe and healthy working environment for its employees and to reduce occupational risks.",
+      "requirements": {
+        "environmental_policies": {
+          "title": "Occupational Health and Safety Policies",
+          "description": "Develop clear policies that express the company's commitment to providing a safe and healthy working environment.",
+          "compliance": "Ensure that policies comply with local and international occupational health and safety laws and regulations."
+        },
+        "environmental_planning": {
+          "title": "Occupational Health and Safety Planning",
+          "description": "Identify occupational hazards related to activities and processes and assess their impact.",
+          "objectives": "Set measurable objectives and plans to achieve them, considering risk reduction and safety enhancement."
+        },
+        "implementation_and_operation": {
+          "title": "Implementation and Operation",
+          "description": "Implement procedures to reduce occupational risks and improve safety levels.",
+          "training": "Train employees on occupational health and safety practices and ensure they understand their roles and responsibilities."
+        },
+        "review_and_continuous_improvement": {
+          "title": "Review and Continuous Improvement",
+          "description": "Conduct periodic reviews of the occupational health and safety management system to ensure its effectiveness and compliance with standards.",
+          "actions": "Implement corrective and preventive actions to continuously improve occupational performance."
+        },
+        "legal_compliance": {
+          "title": "Legal Compliance",
+          "description": "Monitor and evaluate compliance with local and international occupational health and safety laws and regulations.",
+          "updates": "Update policies and procedures to ensure continuous compliance."
+        },
+        "communication_and_engagement": {
+          "title": "Communication and Engagement",
+          "description": "Enhance communication with stakeholders and provide information about the company's occupational performance.",
+          "engagement": "Encourage employee participation and collaboration with relevant parties to achieve shared occupational health and safety goals."
+        }
+      },
+      "conclusion": "By applying the ISO 45001 system and committing to all its requirements, AMAQ International Oil Services Company ensures the reduction of occupational risks and promotes a safe and healthy working environment, enhancing its reputation as a responsible organization and supporting its efforts to achieve a balance between economic performance and employee safety."
+    },
+    "9001": {
+      "overview": "The ISO 9001 Quality Management System is an international standard that specifies the requirements for a quality management system within organizations. AMAQ International Oil Services Company aims to apply this system to ensure the delivery of high-quality services and products that meet customer expectations and enhance their satisfaction.",
+      "commitment": "AMAQ International is committed to all the following ISO 9001 requirements:",
+      "requirements": {
+        "environmental_policies": {
+          "description": "Define quality objectives and related policies.",
+          "compliance": "Plan processes and resources necessary to achieve quality objectives.",
+          "title": "Quality Planning and Management"
+        },
+        "environmental_planning": {
+          "description": "Document key procedures and processes to ensure process consistency and achieve required standards.",
+          "objectives": "Create a quality manual and operational procedures that explain how processes are efficiently executed.",
+          "title": "Procedures and Documentation"
+        },
+        "implementation_and_operation": {
+          "description": "Train employees to ensure they understand the standards and requirements and can implement them effectively.",
+          "training": "Provide ongoing training programs to develop employee skills and improve performance.",
+          "title": "Training and Development"
+        },
+        "review_and_continuous_improvement": {
+          "description": "Conduct periodic reviews of the quality management system to ensure compliance with standards.",
+          "actions": "Implement mechanisms for continuous process improvement based on review results and feedback.",
+          "title": "Internal Review and Continuous Improvement"
+        },
+        "legal_compliance": {
+          "description": "Analyze risks related to operations and services and develop plans to mitigate their effects.",
+          "updates": "Monitor and evaluate system performance periodically to take necessary corrective and preventive actions.",
+          "title": "Risk Management"
+        },
+        "communication_and_engagement": {
+          "description": "Regularly collect customer feedback to measure satisfaction and identify areas for improvement.",
+          "engagement": "Continuously provide services that meet customer needs and expectations.",
+          "title": "Customer Satisfaction"
+        }
+      },
+      "conclusion": "By applying the ISO 9001 system and committing to all its requirements, AMAQ International Oil Services Company ensures the highest quality standards in all its operations, enhancing its market position and increasing customer trust in its services.",
+      "title": "Overview of AMAQ International Oil Services Company's ISO 9001 System"
+    },
+    "14001": {
+      "overview": "The ISO 14001 Environmental Management System is an international standard that specifies the requirements for establishing, implementing, and improving an environmental management system within organizations. AMAQ International Oil Services Company aims to apply this system to ensure the reduction of the environmental impact of its operations and to promote environmental sustainability.",
+      "commitment": "AMAQ International is committed to all the following ISO 14001 requirements:",
+      "requirements": {
+        "environmental_policies": {
+          "description": "Develop clear environmental policies that express the company's commitment to environmental protection.",
+          "compliance": "Ensure that policies comply with local and international environmental laws and regulations.",
+          "title": "Environmental Policies"
+        },
+        "environmental_planning": {
+          "description": "Identify the environmental aspects of activities, products, and services and their potential impact on the environment.",
+          "objectives": "Set measurable environmental objectives and plans to achieve them, considering the reduction of negative environmental impacts.",
+          "title": "Environmental Planning"
+        },
+        "implementation_and_operation": {
+          "description": "Implement procedures to reduce pollution and improve environmental performance.",
+          "training": "Train employees on sound environmental practices and ensure they understand their roles and responsibilities.",
+          "title": "Implementation and Operation"
+        },
+        "review_and_continuous_improvement": {
+          "description": "Conduct periodic reviews of the environmental management system to ensure its effectiveness and compliance with standards.",
+          "actions": "Implement corrective and preventive actions to continuously improve environmental performance.",
+          "title": "Review and Continuous Improvement"
+        },
+        "legal_compliance": {
+          "description": "Monitor and evaluate compliance with local and international environmental laws and regulations.",
+          "updates": "Update policies and procedures to ensure continuous compliance.",
+          "title": "Legal Compliance"
+        },
+        "communication_and_engagement": {
+          "description": "Enhance communication with stakeholders and provide information about the company's environmental performance.",
+          "engagement": "Encourage community engagement and collaboration with relevant parties to achieve shared environmental goals.",
+          "title": "Communication and Engagement"
+        }
+      },
+      "conclusion": "By applying the ISO 14001 system and committing to all its requirements, AMAQ International Oil Services Company ensures the reduction of the negative environmental impacts of its operations and promotes environmental sustainability, enhancing its reputation as an environmentally responsible organization and supporting its efforts to achieve a balance between economic performance and environmental protection.",
+      "title": "Overview of AMAQ International Oil Services Company's ISO 14001 System"
     }
   }
 }

@@ -5,7 +5,7 @@
       <div class="container mx-auto">
         <div class="grid gap-4 max-md:relative w-full max-md:min-w-96 py-16 px-3">
           <div
-            v-for="(item, index) in data"
+            v-for="(item, index) in data.reverse()"
             :key="index"
             class="md:flex md:flex-row justify-center md:bg-transparent bg-white max-md:top-0 max-md:left-0 max-md:w-96 max-sm:w-80"
           >
@@ -19,9 +19,9 @@
               </div>
               <RouterLink
                 :to="{ name: 'NewsCompo', params: { id: `${data.length - 1 - index}` } }"
-                class="mt-2 bg-black px-16 md:px-8 py-2 text-white hover:text-white hover:bg-red-600 w-fit"
+                class="mt-2 bg-black px-16 md:px-8 py-2 text-white hover:text-white hover:bg-red-600 w-fit my-2 duration-150"
               >
-                Read More
+                {{ $t('readmore') }}
               </RouterLink>
             </div>
           </div>

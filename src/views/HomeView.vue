@@ -1,5 +1,5 @@
 <template>
-  <div class="home" dir="ltr">
+  <div class="home" :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'">
     <div class="max-2xl:h-[100vh] xl:h-[110vh] md:h-[100vh] min:h-[1030px] max:h-[2000px] relative">
       <div>
         <div
@@ -27,7 +27,8 @@
             <RouterLink
               to="#/about"
               class="mt-2 bg-white px-16 md:px-8 py-2 text-red-600 hover:text-white hover:bg-red-600"
-              >Our Services</RouterLink
+            >
+              {{ $t('Our_Services') }}</RouterLink
             >
           </div>
           <div class="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 gap-4 xl:w-4/6 lg:w-5/6 w-full">
@@ -78,8 +79,8 @@
         >
           <div v-for="(news, index) in data.slice(0, 3)" :key="index" class="px-2 py-6">
             <RouterLink :to="{ name: 'NewsCompo', params: { id: `${data.length - 1 - index}` } }">
-              <h5 class="text-red-600">Read More</h5>
-              <p class="text-sm text-gray-700">March,22,2024</p>
+              <h5 class="text-red-600">{{ $t('readmore') }}</h5>
+              <!-- <p class="text-sm text-gray-700">March,22,2024</p> -->
               <p>{{ news.title }}</p>
             </RouterLink>
           </div>
@@ -128,8 +129,9 @@
             <RouterLink
               :to="{ name: 'NewsCompo', params: { id: `${data.length - 1 - index}` } }"
               class="mt-2 bg-white px-16 md:px-8 py-2 text-red-600 hover:text-white hover:bg-red-600"
-              >Read More</RouterLink
             >
+              {{ $t('readmore') }}
+            </RouterLink>
           </div>
         </div>
         <!-- <div class="w-5/6 py-8">
@@ -153,15 +155,19 @@
     </div>
     <div></div>
     <div class="container bg-hero-pattern bg-conver py-16 mx-auto bg-cover bg-left bg-repeat">
-      <h2 class="text-3xl text-black mb-4">Accreditation and Compliance Documents</h2>
+      <h2 class="text-3xl text-black mb-4">{{ $t('iso_title') }}</h2>
       <div class="flex max_md:flex-col items-center justify-between">
-        <RouterLink to="/" class="md:w-[25rem] w-[18rem] p-4 py-4"
+        <RouterLink
+          :to="{ name: 'ISO', params: { id: '45001' } }"
+          class="md:w-[25rem] w-[18rem] p-4 py-4"
           ><img src="../assets/iso/45001.png" alt="ISO 45001"
         /></RouterLink>
-        <RouterLink to="/" class="md:w-[25rem] w-[18rem] p-4"
+        <RouterLink
+          :to="{ name: 'ISO', params: { id: '14001' } }"
+          class="md:w-[25rem] w-[18rem] p-4"
           ><img src="../assets/iso/14001.png" alt="ISO 14001"
         /></RouterLink>
-        <RouterLink to="/" class="md:w-[25rem] w-[18rem] p-4"
+        <RouterLink :to="{ name: 'ISO', params: { id: '9001' } }" class="md:w-[25rem] w-[18rem] p-4"
           ><img src="../assets/iso/9001.png" alt="ISO 9001"
         /></RouterLink>
       </div>
@@ -190,7 +196,11 @@ export default {
       }
     }
   },
-
+  watch: {
+    '$i18n.locale': function () {
+      this.fetchData()
+    }
+  },
   mounted() {
     this.fetchData()
   }

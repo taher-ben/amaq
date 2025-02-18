@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-6 bg-gray-100" dir="ltr">
+  <div class="container mx-auto p-6 bg-gray-100" :dir="$i18n.locale == 'ar' ? 'rtl' : 'ltr'">
     <header class="bg-gray-800 text-white py-4 mb-6">
       <h1 class="text-3xl font-bold text-center">{{ $t('policy.title') }}</h1>
     </header>

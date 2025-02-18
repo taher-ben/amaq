@@ -70,10 +70,11 @@ export default {
         (this.currentImageIndex - 1 + this.images.length) % this.images.length
     },
     async fetchData() {
+      const locale = this.$i18n.locale
+      const mianUrl = 'https://amaq-66c14-default-rtdb.firebaseio.com/'
+      const url = locale === 'ar' ? 'ar/news.json' : 'en/news.json'
       try {
-        const response = await axios.get(
-          'https://amaq-66c14-default-rtdb.firebaseio.com/en/news/.json'
-        )
+        const response = await axios.get(`${mianUrl}${url}`)
         this.data = response.data
         console.log(this.data)
       } catch (error) {

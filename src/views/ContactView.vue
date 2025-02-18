@@ -1,5 +1,4 @@
 <template>
-  <IsoAmaq />
   <PageHead :title="$t('contact.pageTitle')" />
   <div class="container mx-auto">
     <div class="py-8 flex max_md:flex-col">
@@ -87,11 +86,7 @@
 </template>
 
 <script>
-import IsoAmaq from '@/components/IsoAmaq.vue'
 export default {
-  components: {
-    IsoAmaq
-  },
   data() {
     return {
       schema: {

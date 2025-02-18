@@ -29,7 +29,7 @@
           </RouterLink>
         </div>
       </div>
-      <div class="flex w-fit">
+      <div class="flex w-fit rtl:flex-row-reverse">
         <button
           @click="prevSlide"
           class="w-full croser flex rtl:flex-row-reverse justify-start rtl:justify-end px-4 my-2"

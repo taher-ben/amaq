@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ServiceDetails from '../components/ServiceCompany.vue'
 import NewsCompo from '../components/NewsCompo.vue'
+import ISO from '../components/IsoAmaq.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,6 +11,12 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/Amaq-ISO/:id',
+      name: 'ISO',
+      component: ISO,
+      props: true
     },
     {
       path: '/service/:id',
