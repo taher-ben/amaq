@@ -3,17 +3,15 @@ import en from './locales/en.json'
 import ar from './locales/ar.json'
 
 function loadLocaleMessages() {
-  const locales = { en, ar }
-  const messages = {}
-  for (const [key, value] of Object.entries(locales)) {
-    messages[key] = value
-  }
-  return messages
+  return { en, ar }
 }
 
-export default createI18n({
-  legacy: false,
-  locale: 'en',
-  fallbackLocale: 'en',
-  messages: loadLocaleMessages()
-})
+// تأخير تعيين اللغة حتى يتم تحميل Pinia
+export function setupI18n(locale = 'en') {
+  return createI18n({
+    legacy: false,
+    locale: locale, // تحديد اللغة عند التهيئة
+    fallbackLocale: 'en',
+    messages: loadLocaleMessages()
+  })
+}
