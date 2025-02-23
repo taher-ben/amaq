@@ -6,11 +6,12 @@ function loadLocaleMessages() {
   return { en, ar }
 }
 
-// تأخير تعيين اللغة حتى يتم تحميل Pinia
-export function setupI18n(locale = 'en') {
+export function setupI18n(
+  locale = localStorage.getItem('locale') || navigator.language.split('-')[0] || 'en'
+) {
   return createI18n({
     legacy: false,
-    locale: locale, // تحديد اللغة عند التهيئة
+    locale: locale,
     fallbackLocale: 'en',
     messages: loadLocaleMessages()
   })

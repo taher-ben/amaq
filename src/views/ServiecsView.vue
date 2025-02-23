@@ -1,10 +1,10 @@
 <template>
   <div>
-    <PageHead :title="'Our Services'" />
+    <PageHead :title="$t('Our_Services')" />
   </div>
   <div class="container mx-auto">
     <div class="container mx-auto my-32 overflow-hidden">
-      <h2 class="pb-16 text-2xl font-bold text-red-500">Company Services</h2>
+      <h2 class="pb-16 text-2xl font-bold text-red-500">{{ $t('Our_Services') }}</h2>
       <div class="w-full h-fit relative overflow-auto slider-ser" ref="slider">
         <div
           class="flex snap-x snap-mandatory scroll-x-9 scroll-smooth boxs md:w-[180rem] w-[140rem]"

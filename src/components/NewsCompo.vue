@@ -22,12 +22,6 @@
             @click="nextImage"
           />
         </button>
-        <!-- Uncomment the line below if right navigation is needed -->
-        <!-- <font-awesome-icon
-          class="text-white py-3 px-4 rounded-3xl bg-black cursor-pointer"
-          :icon="['fas', 'angle-right']"
-          @click="nextImage"
-        /> -->
       </div>
     </div>
     <div class="pt-2">
@@ -40,7 +34,6 @@
     </div>
   </div>
   <div v-else class="text-center py-8">
-    <!-- Placeholder or Loading Message -->
     <p class="animate-spin">
       <span
         class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"

@@ -24,7 +24,7 @@
         </div>
         <div class="pt-4">
           <h2 class="text-xl font-extrabold py-2">{{ $t('contact.email.title') }}</h2>
-          <p>{{ $t('contact.email.address') }}</p>
+          <p>{{ $t('contact.email.address').replace(' [at] ', '@') }}</p>
         </div>
       </div>
       <div class="p-6 rounded-lg max_md:mb-8 md:w-6/12 shadow-2xl">

@@ -10,7 +10,7 @@
       <h2 class="text-2xl mt-4 font-bold text-red-500">{{ service?.name }}</h2>
       <p class="my-4 text-gray-700">{{ service?.description }}</p>
     </div>
-    <div class="container mx-auto mb-3" v-for="(item, index) in service.steps" :key="index">
+    <div class="container mx-auto mb-3" v-for="(item, index) in steps" :key="index">
       {{ index.title }}
       <div class="text-red-500 mb-2 text-xl">
         {{ item.title }}
@@ -28,19 +28,26 @@ export default {
   props: ['id', 'name'],
   data() {
     return {
-      service: null
+      service: null,
+      steps: []
     }
   },
-  async created() {
-    try {
-      const response = await axios.get(
-        `https://amaq-66c14-default-rtdb.firebaseio.com/en/services/${this.id}/.json`
-      )
-      this.service = response.data
-      console.log(this.service)
-    } catch (error) {
-      console.error('خطأ أثناء جلب بيانات الخدمة:', error)
+  methods: {
+    async fetchData() {
+      const locale = this.$i18n.locale
+      const mianUrl = 'https://amaq-66c14-default-rtdb.firebaseio.com/'
+      const url = locale === 'ar' ? `ar/services/${this.id}/.json` : `en/services/${this.id}/.json`
+      try {
+        const response = await axios.get(`${mianUrl}${url}`)
+        this.service = response.data
+        this.steps = response.data.steps
+      } catch (error) {
+        console.error('خطأ أثناء جلب بيانات الخدمة:', error)
+      }
     }
+  },
+  mounted() {
+    this.fetchData()
   }
 }
 </script>

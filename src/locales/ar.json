@@ -1,4 +1,5 @@
 {
+  "NewsAndTopics": "الأخبار والمواضيع",
   "Our_Services": "خدماتنا",
   "readmore": "اقرأ المزيد",
   "home": "الرئيسية",
@@ -128,7 +129,7 @@
     },
     "email": {
       "title": "البريد الإلكتروني",
-      "address": "info@amaq.ly"
+      "address": "info [at] amaq.ly"
     },
     "form": {
       "intro": "يرجى ملء النموذج أدناه وسنقوم بالتواصل معكم في أقرب وقت ممكن:",
