@@ -25,7 +25,7 @@
               {{ $t('video_dicr') }}
             </p>
             <RouterLink
-              to="#/about"
+              :to="`/${languageStore.locale}/service`"
               class="mt-2 bg-white px-16 md:px-8 py-2 text-red-600 hover:text-white hover:bg-red-600"
             >
               {{ $t('Our_Services') }}</RouterLink
@@ -84,20 +84,6 @@
               <p>{{ news.title }}</p>
             </RouterLink>
           </div>
-          <!-- <div class="px-2 py-6">
-            <RouterLink to="/">
-              <h5 class="text-red-600">Read More</h5>
-              <p class="text-sm text-gray-700">March,22,2024</p>
-              <p>Establishment of the First Secure Landfill Cell in Libya</p>
-            </RouterLink>
-          </div>
-          <RouterLink to="/">
-            <div class="px-2 py-6">
-              <h5 class="text-red-600">Read More</h5>
-              <p class="text-sm text-gray-700">March,22,2024</p>
-              <p>Establishment of the First Secure Landfill Cell in Libya</p>
-            </div>
-          </RouterLink> -->
         </div>
       </div>
     </div>
@@ -134,27 +120,10 @@
             </RouterLink>
           </div>
         </div>
-        <!-- <div class="w-5/6 py-8">
-          <div>
-            <img loading="lazy" src="../../image/images/2.jpg" alt="Strategic Partnership" />
-          </div>
-          <div class="pt-4">
-            <h3 class="text-red-500 font-bold">News</h3>
-            <p class="text-white mb-10">
-              Strategic Partnership between Amaq Al-Dauleya and Mellitah Oil & Gas for Environmental
-              Sustainability
-            </p>
-            <RouterLink
-              to="/NewsCompo/8"
-              class="bg-white px-16 md:px-8 py-2 text-red-600 hover:text-white hover:bg-red-600 mt-16"
-              >Read More</RouterLink
-            >
-          </div>
-        </div> -->
       </div>
     </div>
     <div></div>
-    <div class="container bg-hero-pattern bg-conver py-16 mx-auto bg-cover bg-left bg-repeat">
+    <div class="container background2 bg-conver py-16 mx-auto bg-cover bg-left bg-repeat">
       <h2 class="text-3xl text-black mb-4">{{ $t('iso_title') }}</h2>
       <div class="flex max_md:flex-col items-center justify-between">
         <RouterLink
@@ -174,6 +143,10 @@
     </div>
   </div>
 </template>
+<script setup>
+import { useLanguageStore } from '@/stores/languageStore'
+const languageStore = useLanguageStore()
+</script>
 <script>
 import axios from 'axios'
 export default {
@@ -206,3 +179,10 @@ export default {
   }
 }
 </script>
+<style>
+.background2 {
+  background-image: url('../assets/pattrens/pattern.svg');
+  background-size: cover;
+  background-position: center;
+}
+</style>

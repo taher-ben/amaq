@@ -36,7 +36,7 @@
               <VeeField
                 type="text"
                 name="firsname"
-                class="block w-full rounded-md border-0 px-3 py-4 text-gray-900 bg-gray-100 shadow-sm ring-1 ring-inset focus:outline-none ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6"
+                class="block w-full rounded-md border-0 px-3 py-4 my-2 text-gray-900 bg-gray-100 shadow-sm ring-1 ring-inset focus:outline-none ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6"
               />
               <ErrorMessage class="text-red-500" name="firsname" />
             </div>
@@ -45,7 +45,7 @@
               <VeeField
                 type="text"
                 name="lastname"
-                class="block w-full rounded-md border-0 px-3 py-4 text-gray-900 bg-gray-100 shadow-sm ring-1 ring-inset focus:outline-none ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6"
+                class="block w-full rounded-md border-0 px-3 py-4 my-2 text-gray-900 bg-gray-100 shadow-sm ring-1 ring-inset focus:outline-none ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6"
               />
               <ErrorMessage class="text-red-500" name="lastname" />
             </div>
@@ -54,7 +54,7 @@
               <VeeField
                 type="email"
                 name="email"
-                class="block w-full rounded-md border-0 px-3 py-4 text-gray-900 bg-gray-100 shadow-sm ring-1 ring-inset focus:outline-none ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6"
+                class="block w-full rounded-md border-0 px-3 py-4 my-2 text-gray-900 bg-gray-100 shadow-sm ring-1 ring-inset focus:outline-none ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6"
               />
               <ErrorMessage class="text-red-500" name="email" />
             </div>
@@ -66,7 +66,7 @@
                 cols="8"
                 rows="4"
                 autocomplete="given-name"
-                class="block w-full rounded-md border-0 px-3 py-4 text-gray-900 bg-gray-100 shadow-sm ring-1 ring-inset focus:outline-none ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6"
+                class="block w-full rounded-md border-0 px-3 py-4 my-2 text-gray-900 bg-gray-100 shadow-sm ring-1 ring-inset focus:outline-none ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6"
               ></VeeField>
               <ErrorMessage class="text-red-500" name="mesasage" />
             </div>
