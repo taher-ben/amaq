@@ -12,7 +12,7 @@
           <RouterLink
             v-for="(item, index) in data"
             :key="index"
-            :to="{ name: 'ServiceDetails', params: { id: `${data.length - 1 - index}` } }"
+            :to="{ name: 'ServiceDetails', params: { id: `${index}` } }"
             class="md:max-w-sm snap-center max-w-[300px] mx-2 bg-white border border-gray-200 rounded-lg shadow"
           >
             <img class="rounded-t-lg" :src="`/image/services/${index}.jpg`" alt="Service Image" />
@@ -55,8 +55,7 @@ export default {
   props: ['title'],
   data() {
     return {
-      data: null
-      // locale: this.$i18n.locale
+      data: [] // تأكيد أن البيانات مصفوفة فارغة في البداية
     }
   },
   methods: {

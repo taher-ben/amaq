@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import { useLanguageStore } from '../stores/languageStore' // استيراد Pinia Store
 import HomeView from '../views/HomeView.vue'
 import ServiceDetails from '../components/ServiceCompany.vue'
@@ -57,17 +57,32 @@ const routes = [
   {
     path: '/',
     redirect: '/en/home'
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    beforeEnter: (to, from, next) => {
+      const languageStore = useLanguageStore()
+      const locale = languageStore.locale || 'en'
+      next(`/${locale}/home`)
+    }
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  history: createWebHashHistory(import.meta.env.BASE_URL),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0, behavior: 'smooth' }
+    }
+  }
 })
 
 router.beforeEach((to, from, next) => {
   const languageStore = useLanguageStore()
-  const locale = to.params.locale || languageStore.locale
+  const locale = to.params.locale || languageStore.locale || 'en'
 
   if (!['en', 'ar'].includes(locale)) {
     return next(`/${languageStore.locale}/home`)
